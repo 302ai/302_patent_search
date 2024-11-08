@@ -1,0 +1,1052 @@
+[
+  {
+    "country_code": "WO",
+    "country_name_en": "World Intellectual Property Organization",
+    "country_name_zh": "世界知识产权组织",
+    "country_name_ja": "世界知的財産機関"
+  },
+  {
+    "country_code": "AE",
+    "country_name_en": "United Arab Emirates",
+    "country_name_zh": "阿拉伯联合酋长国",
+    "country_name_ja": "アラブ首長国連邦"
+  },
+  {
+    "country_code": "AG",
+    "country_name_en": "Antigua And Barbuda",
+    "country_name_zh": "安提瓜和巴布达",
+    "country_name_ja": "アンティグア・バーブーダ"
+  },
+  {
+    "country_code": "AL",
+    "country_name_en": "Albania",
+    "country_name_zh": "阿尔巴尼亚",
+    "country_name_ja": "アルバニア"
+  },
+  {
+    "country_code": "AM",
+    "country_name_en": "Armenia",
+    "country_name_zh": "亚美尼亚",
+    "country_name_ja": "アルメニア"
+  },
+  {
+    "country_code": "AO",
+    "country_name_en": "Angola",
+    "country_name_zh": "安哥拉",
+    "country_name_ja": "アンゴラ"
+  },
+  {
+    "country_code": "AP",
+    "country_name_en": "African Regional Intellectual Property Organization (ARIPO)",
+    "country_name_zh": "非洲地区知识产权组织",
+    "country_name_ja": "アフリカ地域知的財産機関"
+  },
+  {
+    "country_code": "AR",
+    "country_name_en": "Argentina",
+    "country_name_zh": "阿根廷",
+    "country_name_ja": "アルゼンチン"
+  },
+  {
+    "country_code": "AT",
+    "country_name_en": "Austria",
+    "country_name_zh": "奥地利",
+    "country_name_ja": "オーストリア"
+  },
+  {
+    "country_code": "AU",
+    "country_name_en": "Australia",
+    "country_name_zh": "澳大利亚",
+    "country_name_ja": "オーストラリア"
+  },
+  {
+    "country_code": "AW",
+    "country_name_en": "Aruba",
+    "country_name_zh": "阿鲁巴",
+    "country_name_ja": "アルバ"
+  },
+  {
+    "country_code": "AZ",
+    "country_name_en": "Azerbaijan",
+    "country_name_zh": "阿塞拜疆",
+    "country_name_ja": "アゼルバイジャン"
+  },
+  {
+    "country_code": "BA",
+    "country_name_en": "Bosnia And Herzegovina",
+    "country_name_zh": "波斯尼亚和黑塞哥维那",
+    "country_name_ja": "ボスニア・ヘルツェゴビナ"
+  },
+  {
+    "country_code": "BB",
+    "country_name_en": "Barbados",
+    "country_name_zh": "巴巴多斯",
+    "country_name_ja": "バルバドス"
+  },
+  {
+    "country_code": "BD",
+    "country_name_en": "Bangladesh",
+    "country_name_zh": "孟加拉国",
+    "country_name_ja": "バングラデシュ"
+  },
+  {
+    "country_code": "BE",
+    "country_name_en": "Belgium",
+    "country_name_zh": "比利时",
+    "country_name_ja": "ベルギー"
+  },
+  {
+    "country_code": "BF",
+    "country_name_en": "Burkina Faso",
+    "country_name_zh": "布基纳法索",
+    "country_name_ja": "ブルキナファソ"
+  },
+  {
+    "country_code": "BG",
+    "country_name_en": "Bulgaria",
+    "country_name_zh": "保加利亚",
+    "country_name_ja": "ブルガリア"
+  },
+  {
+    "country_code": "BH",
+    "country_name_en": "Bahrain",
+    "country_name_zh": "巴林",
+    "country_name_ja": "バーレーン"
+  },
+  {
+    "country_code": "BJ",
+    "country_name_en": "Benin",
+    "country_name_zh": "贝宁",
+    "country_name_ja": "ベナン"
+  },
+  {
+    "country_code": "BN",
+    "country_name_en": "Brunei Darussalam",
+    "country_name_zh": "文莱达鲁萨兰国",
+    "country_name_ja": "ブルネイ・ダルサラーム"
+  },
+  {
+    "country_code": "BO",
+    "country_name_en": "Bolivia",
+    "country_name_zh": "玻利维亚",
+    "country_name_ja": "ボリビア"
+  },
+  {
+    "country_code": "BR",
+    "country_name_en": "Brazil",
+    "country_name_zh": "巴西",
+    "country_name_ja": "ブラジル"
+  },
+  {
+    "country_code": "BW",
+    "country_name_en": "Botswana",
+    "country_name_zh": "博茨瓦纳",
+    "country_name_ja": "ボツワナ"
+  },
+  {
+    "country_code": "BX",
+    "country_name_en": "Benelux Office For Intellectual Property (BOIP)",
+    "country_name_zh": "比荷卢知识产权局",
+    "country_name_ja": "ベネルクス知的財産局"
+  },
+  {
+    "country_code": "BY",
+    "country_name_en": "Belarus",
+    "country_name_zh": "白俄罗斯",
+    "country_name_ja": "ベラルーシ"
+  },
+  {
+    "country_code": "BZ",
+    "country_name_en": "Belize",
+    "country_name_zh": "伯利兹",
+    "country_name_ja": "ベリーズ"
+  },
+  {
+    "country_code": "CA",
+    "country_name_en": "Canada",
+    "country_name_zh": "加拿大",
+    "country_name_ja": "カナダ"
+  },
+  {
+    "country_code": "CF",
+    "country_name_en": "Central African Republic",
+    "country_name_zh": "中非共和国",
+    "country_name_ja": "中央アフリカ共和国"
+  },
+  {
+    "country_code": "CG",
+    "country_name_en": "Congo",
+    "country_name_zh": "刚果",
+    "country_name_ja": "コンゴ"
+  },
+  {
+    "country_code": "CH",
+    "country_name_en": "Switzerland",
+    "country_name_zh": "瑞士",
+    "country_name_ja": "スイス"
+  },
+  {
+    "country_code": "CI",
+    "country_name_en": "Côte D'ivoire",
+    "country_name_zh": "科特迪瓦",
+    "country_name_ja": "コートジボワール"
+  },
+  {
+    "country_code": "CL",
+    "country_name_en": "Chile",
+    "country_name_zh": "智利",
+    "country_name_ja": "チリ"
+  },
+  {
+    "country_code": "CM",
+    "country_name_en": "Cameroon",
+    "country_name_zh": "喀麦隆",
+    "country_name_ja": "カメルーン"
+  },
+  {
+    "country_code": "CN",
+    "country_name_en": "China",
+    "country_name_zh": "中国",
+    "country_name_ja": "中国"
+  },
+  {
+    "country_code": "CO",
+    "country_name_en": "Colombia",
+    "country_name_zh": "哥伦比亚",
+    "country_name_ja": "コロンビア"
+  },
+  {
+    "country_code": "CR",
+    "country_name_en": "Costa Rica",
+    "country_name_zh": "哥斯达黎加",
+    "country_name_ja": "コスタリカ"
+  },
+  {
+    "country_code": "CS",
+    "country_name_en": "Czechoslovakia",
+    "country_name_zh": "捷克斯洛伐克",
+    "country_name_ja": "チェコスロバキア"
+  },
+  {
+    "country_code": "CU",
+    "country_name_en": "Cuba",
+    "country_name_zh": "古巴",
+    "country_name_ja": "キューバ"
+  },
+  {
+    "country_code": "CY",
+    "country_name_en": "Cyprus",
+    "country_name_zh": "塞浦路斯",
+    "country_name_ja": "キプロス"
+  },
+  {
+    "country_code": "CZ",
+    "country_name_en": "Czech Republic",
+    "country_name_zh": "捷克共和国",
+    "country_name_ja": "チェコ共和国"
+  },
+  {
+    "country_code": "DD",
+    "country_name_en": "German Democratic Republic",
+    "country_name_zh": "德意志民主共和国",
+    "country_name_ja": "ドイツ民主共和国"
+  },
+  {
+    "country_code": "DE",
+    "country_name_en": "Germany",
+    "country_name_zh": "德国",
+    "country_name_ja": "ドイツ"
+  },
+  {
+    "country_code": "DJ",
+    "country_name_en": "Djibouti",
+    "country_name_zh": "吉布提",
+    "country_name_ja": "ジブチ"
+  },
+  {
+    "country_code": "DK",
+    "country_name_en": "Denmark",
+    "country_name_zh": "丹麦",
+    "country_name_ja": "デンマーク"
+  },
+  {
+    "country_code": "DM",
+    "country_name_en": "Dominica",
+    "country_name_zh": "多米尼加",
+    "country_name_ja": "ドミニカ国"
+  },
+  {
+    "country_code": "DO",
+    "country_name_en": "Dominican Republic",
+    "country_name_zh": "多米尼加共和国",
+    "country_name_ja": "ドミニカ共和国"
+  },
+  {
+    "country_code": "DZ",
+    "country_name_en": "Algeria",
+    "country_name_zh": "阿尔及利亚",
+    "country_name_ja": "アルジェリア"
+  },
+  {
+    "country_code": "EA",
+    "country_name_en": "Eurasian Patent Organization (EAPO)",
+    "country_name_zh": "欧亚专利组织",
+    "country_name_ja": "ユーラシア特許機関"
+  },
+  {
+    "country_code": "EC",
+    "country_name_en": "Ecuador",
+    "country_name_zh": "厄瓜多尔",
+    "country_name_ja": "エクアドル"
+  },
+  {
+    "country_code": "EE",
+    "country_name_en": "Estonia",
+    "country_name_zh": "爱沙尼亚",
+    "country_name_ja": "エストニア"
+  },
+  {
+    "country_code": "EG",
+    "country_name_en": "Egypt",
+    "country_name_zh": "埃及",
+    "country_name_ja": "エジプト"
+  },
+  {
+    "country_code": "EM",
+    "country_name_en": "Office For Harmonization In The Internal Market (Trade Marks And Designs) (OHIM)",
+    "country_name_zh": "内部市场协调局（商标和设计）",
+    "country_name_ja": "内市場調和局（商標とデザイン）"
+  },
+  {
+    "country_code": "EP",
+    "country_name_en": "European Patent Office (EPO)",
+    "country_name_zh": "欧洲专利局",
+    "country_name_ja": "欧州特許庁"
+  },
+  {
+    "country_code": "ES",
+    "country_name_en": "Spain",
+    "country_name_zh": "西班牙",
+    "country_name_ja": "スペイン"
+  },
+  {
+    "country_code": "FI",
+    "country_name_en": "Finland",
+    "country_name_zh": "芬兰",
+    "country_name_ja": "フィンランド"
+  },
+  {
+    "country_code": "FR",
+    "country_name_en": "France",
+    "country_name_zh": "法国",
+    "country_name_ja": "フランス"
+  },
+  {
+    "country_code": "GA",
+    "country_name_en": "Gabon",
+    "country_name_zh": "加蓬",
+    "country_name_ja": "ガボン"
+  },
+  {
+    "country_code": "GB",
+    "country_name_en": "United Kingdom",
+    "country_name_zh": "英国",
+    "country_name_ja": "イギリス"
+  },
+  {
+    "country_code": "GC",
+    "country_name_en": "Patent Office Of The Cooperation Council For The Arab States Of The Gulf (GCC)",
+    "country_name_zh": "海湾阿拉伯国家合作委员会专利局",
+    "country_name_ja": "アラブ湾協力評議会特許局"
+  },
+  {
+    "country_code": "GD",
+    "country_name_en": "Grenada",
+    "country_name_zh": "格林纳达",
+    "country_name_ja": "グレナダ"
+  },
+  {
+    "country_code": "GE",
+    "country_name_en": "Georgia",
+    "country_name_zh": "格鲁吉亚",
+    "country_name_ja": "ジョージア"
+  },
+  {
+    "country_code": "GH",
+    "country_name_en": "Ghana",
+    "country_name_zh": "加纳",
+    "country_name_ja": "ガーナ"
+  },
+  {
+    "country_code": "GM",
+    "country_name_en": "Gambia",
+    "country_name_zh": "冈比亚",
+    "country_name_ja": "ガンビア"
+  },
+  {
+    "country_code": "GN",
+    "country_name_en": "Guinea",
+    "country_name_zh": "几内亚",
+    "country_name_ja": "ギニア"
+  },
+  {
+    "country_code": "GQ",
+    "country_name_en": "Equatorial Guinea",
+    "country_name_zh": "赤道几内亚",
+    "country_name_ja": "赤道ギニア"
+  },
+  {
+    "country_code": "GR",
+    "country_name_en": "Greece",
+    "country_name_zh": "希腊",
+    "country_name_ja": "ギリシャ"
+  },
+  {
+    "country_code": "GT",
+    "country_name_en": "Guatemala",
+    "country_name_zh": "危地马拉",
+    "country_name_ja": "グアテマラ"
+  },
+  {
+    "country_code": "GW",
+    "country_name_en": "Guinea-bissau",
+    "country_name_zh": "几内亚比绍",
+    "country_name_ja": "ギニアビサウ"
+  },
+  {
+    "country_code": "HK",
+    "country_name_en": "The Hong Kong Special Administrative Region Of The People's Republic Of China",
+    "country_name_zh": "中华人民共和国香港特别行政区",
+    "country_name_ja": "中華人民共和国香港特別行政区"
+  },
+  {
+    "country_code": "HN",
+    "country_name_en": "Honduras",
+    "country_name_zh": "洪都拉斯",
+    "country_name_ja": "ホンジュラス"
+  },
+  {
+    "country_code": "HR",
+    "country_name_en": "Croatia",
+    "country_name_zh": "克罗地亚",
+    "country_name_ja": "クロアチア"
+  },
+  {
+    "country_code": "HU",
+    "country_name_en": "Hungary",
+    "country_name_zh": "匈牙利",
+    "country_name_ja": "ハンガリー"
+  },
+  {
+    "country_code": "IB",
+    "country_name_en": "International Bureau Of",
+    "country_name_zh": "国际局",
+    "country_name_ja": "国際局"
+  },
+  {
+    "country_code": "ID",
+    "country_name_en": "Indonesia",
+    "country_name_zh": "印度尼西亚",
+    "country_name_ja": "インドネシア"
+  },
+  {
+    "country_code": "IE",
+    "country_name_en": "Ireland",
+    "country_name_zh": "爱尔兰",
+    "country_name_ja": "アイルランド"
+  },
+  {
+    "country_code": "IL",
+    "country_name_en": "Israel",
+    "country_name_zh": "以色列",
+    "country_name_ja": "イスラエル"
+  },
+  {
+    "country_code": "IN",
+    "country_name_en": "India",
+    "country_name_zh": "印度",
+    "country_name_ja": "インド"
+  },
+  {
+    "country_code": "IR",
+    "country_name_en": "Iran, Islamic Republic Of",
+    "country_name_zh": "伊朗伊斯兰共和国",
+    "country_name_ja": "イラン・イスラム共和国"
+  },
+  {
+    "country_code": "IS",
+    "country_name_en": "Iceland",
+    "country_name_zh": "冰岛",
+    "country_name_ja": "アイスランド"
+  },
+  {
+    "country_code": "IT",
+    "country_name_en": "Italy",
+    "country_name_zh": "意大利",
+    "country_name_ja": "イタリア"
+  },
+  {
+    "country_code": "JO",
+    "country_name_en": "Jordan",
+    "country_name_zh": "约旦",
+    "country_name_ja": "ヨルダン"
+  },
+  {
+    "country_code": "JP",
+    "country_name_en": "Japan",
+    "country_name_zh": "日本",
+    "country_name_ja": "日本"
+  },
+  {
+    "country_code": "KE",
+    "country_name_en": "Kenya",
+    "country_name_zh": "肯尼亚",
+    "country_name_ja": "ケニア"
+  },
+  {
+    "country_code": "KG",
+    "country_name_en": "Kyrgyzstan",
+    "country_name_zh": "吉尔吉斯斯坦",
+    "country_name_ja": "キルギス"
+  },
+  {
+    "country_code": "KH",
+    "country_name_en": "Cambodia",
+    "country_name_zh": "柬埔寨",
+    "country_name_ja": "カンボジア"
+  },
+  {
+    "country_code": "KM",
+    "country_name_en": "Comoros",
+    "country_name_zh": "科摩罗",
+    "country_name_ja": "コモロ"
+  },
+  {
+    "country_code": "KN",
+    "country_name_en": "Saint Kitts And Nevis",
+    "country_name_zh": "圣基茨和尼维斯",
+    "country_name_ja": "セントクリストファー・ネーヴィス"
+  },
+  {
+    "country_code": "KP",
+    "country_name_en": "Democratic People's Republic Of Korea",
+    "country_name_zh": "朝鲜民主主义人民共和国",
+    "country_name_ja": "朝鮮民主主義人民共和国"
+  },
+  {
+    "country_code": "KR",
+    "country_name_en": "Republic Of Korea",
+    "country_name_zh": "大韩民国",
+    "country_name_ja": "大韓民国"
+  },
+  {
+    "country_code": "KW",
+    "country_name_en": "Kuwait",
+    "country_name_zh": "科威特",
+    "country_name_ja": "クウェート"
+  },
+  {
+    "country_code": "KZ",
+    "country_name_en": "Kazakhstan",
+    "country_name_zh": "哈萨克斯坦",
+    "country_name_ja": "カザフスタン"
+  },
+  {
+    "country_code": "LA",
+    "country_name_en": "Lao People's Democratic Republic",
+    "country_name_zh": "老挝人民民主共和国",
+    "country_name_ja": "ラオス人民民主共和国"
+  },
+  {
+    "country_code": "LC",
+    "country_name_en": "Saint Lucia",
+    "country_name_zh": "圣卢西亚",
+    "country_name_ja": "セントルシア"
+  },
+  {
+    "country_code": "LI",
+    "country_name_en": "Liechtenstein",
+    "country_name_zh": "列支敦士登",
+    "country_name_ja": "リヒテンシュタイン"
+  },
+  {
+    "country_code": "LK",
+    "country_name_en": "Sri Lanka",
+    "country_name_zh": "斯里兰卡",
+    "country_name_ja": "スリランカ"
+  },
+  {
+    "country_code": "LR",
+    "country_name_en": "Liberia",
+    "country_name_zh": "利比里亚",
+    "country_name_ja": "リベリア"
+  },
+  {
+    "country_code": "LS",
+    "country_name_en": "Lesotho",
+    "country_name_zh": "莱索托",
+    "country_name_ja": "レソト"
+  },
+  {
+    "country_code": "LT",
+    "country_name_en": "Lithuania",
+    "country_name_zh": "立陶宛",
+    "country_name_ja": "リトアニア"
+  },
+  {
+    "country_code": "LU",
+    "country_name_en": "Luxembourg",
+    "country_name_zh": "卢森堡",
+    "country_name_ja": "ルクセンブルク"
+  },
+  {
+    "country_code": "LV",
+    "country_name_en": "Latvia",
+    "country_name_zh": "拉脱维亚",
+    "country_name_ja": "ラトビア"
+  },
+  {
+    "country_code": "LY",
+    "country_name_en": "Libyan Arab Jamahiriya",
+    "country_name_zh": "阿拉伯利比亚民众国",
+    "country_name_ja": "リビア・アラブ・ジャマーヒリーヤ"
+  },
+  {
+    "country_code": "MA",
+    "country_name_en": "Morocco",
+    "country_name_zh": "摩洛哥",
+    "country_name_ja": "モロッコ"
+  },
+  {
+    "country_code": "MC",
+    "country_name_en": "Monaco",
+    "country_name_zh": "摩纳哥",
+    "country_name_ja": "モナコ"
+  },
+  {
+    "country_code": "MD",
+    "country_name_en": "Republic Of Moldova",
+    "country_name_zh": "摩尔多瓦共和国",
+    "country_name_ja": "モルドバ共和国"
+  },
+  {
+    "country_code": "ME",
+    "country_name_en": "Montenegro",
+    "country_name_zh": "黑山",
+    "country_name_ja": "モンテネグロ"
+  },
+  {
+    "country_code": "MG",
+    "country_name_en": "Madagascar",
+    "country_name_zh": "马达加斯加",
+    "country_name_ja": "マダガスカル"
+  },
+  {
+    "country_code": "MK",
+    "country_name_en": "The Former Yugoslav Republic Of Macedonia",
+    "country_name_zh": "前南斯拉夫马其顿共和国",
+    "country_name_ja": "マケドニア旧ユーゴスラビア共和国"
+  },
+  {
+    "country_code": "ML",
+    "country_name_en": "Mali",
+    "country_name_zh": "马里",
+    "country_name_ja": "マリ"
+  },
+  {
+    "country_code": "MN",
+    "country_name_en": "Mongolia",
+    "country_name_zh": "蒙古",
+    "country_name_ja": "モンゴル"
+  },
+  {
+    "country_code": "MO",
+    "country_name_en": "Macao",
+    "country_name_zh": "澳门",
+    "country_name_ja": "マカオ"
+  },
+  {
+    "country_code": "MR",
+    "country_name_en": "Mauritania",
+    "country_name_zh": "毛里塔尼亚",
+    "country_name_ja": "モーリタニア"
+  },
+  {
+    "country_code": "MT",
+    "country_name_en": "Malta",
+    "country_name_zh": "马耳他",
+    "country_name_ja": "マルタ"
+  },
+  {
+    "country_code": "MW",
+    "country_name_en": "Malawi",
+    "country_name_zh": "马拉维",
+    "country_name_ja": "マラウイ"
+  },
+  {
+    "country_code": "MX",
+    "country_name_en": "Mexico",
+    "country_name_zh": "墨西哥",
+    "country_name_ja": "メキシコ"
+  },
+  {
+    "country_code": "MY",
+    "country_name_en": "Malaysia",
+    "country_name_zh": "马来西亚",
+    "country_name_ja": "マレーシア"
+  },
+  {
+    "country_code": "MZ",
+    "country_name_en": "Mozambique",
+    "country_name_zh": "莫桑比克",
+    "country_name_ja": "モザンビーク"
+  },
+  {
+    "country_code": "NA",
+    "country_name_en": "Namibia",
+    "country_name_zh": "纳米比亚",
+    "country_name_ja": "ナミビア"
+  },
+  {
+    "country_code": "NE",
+    "country_name_en": "Niger",
+    "country_name_zh": "尼日尔",
+    "country_name_ja": "ニジェール"
+  },
+  {
+    "country_code": "NG",
+    "country_name_en": "Nigeria",
+    "country_name_zh": "尼日利亚",
+    "country_name_ja": "ナイジェリア"
+  },
+  {
+    "country_code": "NI",
+    "country_name_en": "Nicaragua",
+    "country_name_zh": "尼加拉瓜",
+    "country_name_ja": "ニカラグア"
+  },
+  {
+    "country_code": "NL",
+    "country_name_en": "Netherlands",
+    "country_name_zh": "荷兰",
+    "country_name_ja": "オランダ"
+  },
+  {
+    "country_code": "NO",
+    "country_name_en": "Norway",
+    "country_name_zh": "挪威",
+    "country_name_ja": "ノルウェー"
+  },
+  {
+    "country_code": "NZ",
+    "country_name_en": "New Zealand",
+    "country_name_zh": "新西兰",
+    "country_name_ja": "ニュージーランド"
+  },
+  {
+    "country_code": "OA",
+    "country_name_en": "African Intellectual Property Organization (OAPI)",
+    "country_name_zh": "非洲知识产权组织",
+    "country_name_ja": "アフリカ知的財産機関"
+  },
+  {
+    "country_code": "OM",
+    "country_name_en": "Oman",
+    "country_name_zh": "阿曼",
+    "country_name_ja": "オマーン"
+  },
+  {
+    "country_code": "PA",
+    "country_name_en": "Panama",
+    "country_name_zh": "巴拿马",
+    "country_name_ja": "パナマ"
+  },
+  {
+    "country_code": "PE",
+    "country_name_en": "Peru",
+    "country_name_zh": "秘鲁",
+    "country_name_ja": "ペルー"
+  },
+  {
+    "country_code": "PG",
+    "country_name_en": "Papua New Guinea",
+    "country_name_zh": "巴布亚新几内亚",
+    "country_name_ja": "パプアニューギニア"
+  },
+  {
+    "country_code": "PH",
+    "country_name_en": "Philippines",
+    "country_name_zh": "菲律宾",
+    "country_name_ja": "フィリピン"
+  },
+  {
+    "country_code": "PL",
+    "country_name_en": "Poland",
+    "country_name_zh": "波兰",
+    "country_name_ja": "ポーランド"
+  },
+  {
+    "country_code": "PT",
+    "country_name_en": "Portugal",
+    "country_name_zh": "葡萄牙",
+    "country_name_ja": "ポルトガル"
+  },
+  {
+    "country_code": "PY",
+    "country_name_en": "Paraguay",
+    "country_name_zh": "巴拉圭",
+    "country_name_ja": "パラグアイ"
+  },
+  {
+    "country_code": "QA",
+    "country_name_en": "Qatar",
+    "country_name_zh": "卡塔尔",
+    "country_name_ja": "カタール"
+  },
+  {
+    "country_code": "RO",
+    "country_name_en": "Romania",
+    "country_name_zh": "罗马尼亚",
+    "country_name_ja": "ルーマニア"
+  },
+  {
+    "country_code": "RS",
+    "country_name_en": "Serbia",
+    "country_name_zh": "塞尔维亚",
+    "country_name_ja": "セルビア"
+  },
+  {
+    "country_code": "RU",
+    "country_name_en": "Russian Federation",
+    "country_name_zh": "俄罗斯联邦",
+    "country_name_ja": "ロシア連邦"
+  },
+  {
+    "country_code": "RW",
+    "country_name_en": "Rwanda",
+    "country_name_zh": "卢旺达",
+    "country_name_ja": "ルワンダ"
+  },
+  {
+    "country_code": "SA",
+    "country_name_en": "Saudi Arabia",
+    "country_name_zh": "沙特阿拉伯",
+    "country_name_ja": "サウジアラビア"
+  },
+  {
+    "country_code": "SC",
+    "country_name_en": "Seychelles",
+    "country_name_zh": "塞舌尔",
+    "country_name_ja": "セーシェル"
+  },
+  {
+    "country_code": "SD",
+    "country_name_en": "Sudan",
+    "country_name_zh": "苏丹",
+    "country_name_ja": "スーダン"
+  },
+  {
+    "country_code": "SE",
+    "country_name_en": "Sweden",
+    "country_name_zh": "瑞典",
+    "country_name_ja": "スウェーデン"
+  },
+  {
+    "country_code": "SG",
+    "country_name_en": "Singapore",
+    "country_name_zh": "新加坡",
+    "country_name_ja": "シンガポール"
+  },
+  {
+    "country_code": "SI",
+    "country_name_en": "Slovenia",
+    "country_name_zh": "斯洛文尼亚",
+    "country_name_ja": "スロベニア"
+  },
+  {
+    "country_code": "SK",
+    "country_name_en": "Slovakia",
+    "country_name_zh": "斯洛伐克",
+    "country_name_ja": "スロバキア"
+  },
+  {
+    "country_code": "SL",
+    "country_name_en": "Sierra Leone",
+    "country_name_zh": "塞拉利昂",
+    "country_name_ja": "シエラレオネ"
+  },
+  {
+    "country_code": "SM",
+    "country_name_en": "San Marino",
+    "country_name_zh": "圣马力诺",
+    "country_name_ja": "サンマリノ"
+  },
+  {
+    "country_code": "SN",
+    "country_name_en": "Senegal",
+    "country_name_zh": "塞内加尔",
+    "country_name_ja": "セネガル"
+  },
+  {
+    "country_code": "ST",
+    "country_name_en": "Sao Tome And Principe",
+    "country_name_zh": "圣多美和普林西比",
+    "country_name_ja": "サントメ・プリンシペ"
+  },
+  {
+    "country_code": "SU",
+    "country_name_en": "Union Of Soviet Socialist Republics",
+    "country_name_zh": "苏维埃社会主义共和国联盟",
+    "country_name_ja": "ソビエト社会主義共和国連邦"
+  },
+  {
+    "country_code": "SV",
+    "country_name_en": "El Salvador",
+    "country_name_zh": "萨尔瓦多",
+    "country_name_ja": "エルサルバドル"
+  },
+  {
+    "country_code": "SY",
+    "country_name_en": "Syrian Arab Republic",
+    "country_name_zh": "阿拉伯叙利亚共和国",
+    "country_name_ja": "シリア・アラブ共和国"
+  },
+  {
+    "country_code": "SZ",
+    "country_name_en": "Swaziland",
+    "country_name_zh": "斯威士兰",
+    "country_name_ja": "エスワティニ"
+  },
+  {
+    "country_code": "TD",
+    "country_name_en": "Chad",
+    "country_name_zh": "乍得",
+    "country_name_ja": "チャド"
+  },
+  {
+    "country_code": "TG",
+    "country_name_en": "Togo",
+    "country_name_zh": "多哥",
+    "country_name_ja": "トーゴ"
+  },
+  {
+    "country_code": "TH",
+    "country_name_en": "Thailand",
+    "country_name_zh": "泰国",
+    "country_name_ja": "タイ"
+  },
+  {
+    "country_code": "TJ",
+    "country_name_en": "Tajikistan",
+    "country_name_zh": "塔吉克斯坦",
+    "country_name_ja": "タジキスタン"
+  },
+  {
+    "country_code": "TM",
+    "country_name_en": "Turkmenistan",
+    "country_name_zh": "土库曼斯坦",
+    "country_name_ja": "トルクメニスタン"
+  },
+  {
+    "country_code": "TN",
+    "country_name_en": "Tunisia",
+    "country_name_zh": "突尼斯",
+    "country_name_ja": "チュニジア"
+  },
+  {
+    "country_code": "TR",
+    "country_name_en": "Turkey",
+    "country_name_zh": "土耳其",
+    "country_name_ja": "トルコ"
+  },
+  {
+    "country_code": "TT",
+    "country_name_en": "Trinidad And Tobago",
+    "country_name_zh": "特立尼达和多巴哥",
+    "country_name_ja": "トリニダード・トバゴ"
+  },
+  {
+    "country_code": "TW",
+    "country_name_en": "Taiwan, Province Of China",
+    "country_name_zh": "中国台湾省",
+    "country_name_ja": "台湾省（中国）"
+  },
+  {
+    "country_code": "TZ",
+    "country_name_en": "United Republic Of Tanzania",
+    "country_name_zh": "坦桑尼亚联合共和国",
+    "country_name_ja": "タンザニア連合共和国"
+  },
+  {
+    "country_code": "UA",
+    "country_name_en": "Ukraine",
+    "country_name_zh": "乌克兰",
+    "country_name_ja": "ウクライナ"
+  },
+  {
+    "country_code": "UG",
+    "country_name_en": "Uganda",
+    "country_name_zh": "乌干达",
+    "country_name_ja": "ウガンダ"
+  },
+  {
+    "country_code": "US",
+    "country_name_en": "United States Of America",
+    "country_name_zh": "美利坚合众国",
+    "country_name_ja": "アメリカ合衆国"
+  },
+  {
+    "country_code": "UY",
+    "country_name_en": "Uruguay",
+    "country_name_zh": "乌拉圭",
+    "country_name_ja": "ウルグアイ"
+  },
+  {
+    "country_code": "UZ",
+    "country_name_en": "Uzbekistan",
+    "country_name_zh": "乌兹别克斯坦",
+    "country_name_ja": "ウズベキスタン"
+  },
+  {
+    "country_code": "VC",
+    "country_name_en": "Saint Vincent And The Grenadines",
+    "country_name_zh": "圣文森特和格林纳丁斯",
+    "country_name_ja": "セントビンセント・グレナディーン"
+  },
+  {
+    "country_code": "VE",
+    "country_name_en": "Venezuela",
+    "country_name_zh": "委内瑞拉",
+    "country_name_ja": "ベネズエラ"
+  },
+  {
+    "country_code": "VN",
+    "country_name_en": "Vietnam",
+    "country_name_zh": "越南",
+    "country_name_ja": "ベトナム"
+  },
+  {
+    "country_code": "YU",
+    "country_name_en": "Yugoslavia",
+    "country_name_zh": "南斯拉夫",
+    "country_name_ja": "ユーゴスラビア"
+  },
+  {
+    "country_code": "ZA",
+    "country_name_en": "South Africa",
+    "country_name_zh": "南非",
+    "country_name_ja": "南アフリカ"
+  },
+  {
+    "country_code": "ZM",
+    "country_name_en": "Zambia",
+    "country_name_zh": "赞比亚",
+    "country_name_ja": "ザンビア"
+  },
+  {
+    "country_code": "ZW",
+    "country_name_en": "Zimbabwe",
+    "country_name_zh": "津巴布韦",
+    "country_name_ja": "ジンバブエ"
+  }
+]

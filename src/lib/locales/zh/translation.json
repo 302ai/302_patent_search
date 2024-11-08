@@ -1,0 +1,104 @@
+{
+  "header": {
+    "title": "AI 专利搜索"
+  },
+  "search": {
+    "topic": "搜索主题",
+    "results": "搜索结果",
+    "placeholder": "请输入想要搜索的主题",
+    "reset": "重置",
+    "start_time": "开始时间",
+    "end_time": "结束时间",
+    "time": "日期",
+    "time_tips": "请选择日期类型",
+    "patent_type_tips": "请选择类型",
+    "patent_type": "专利类型",
+    "patent_status_tips": "请选择状态",
+    "patent_status": "专利状态",
+    "patent_language_empty": "未找到结果",
+    "patent_language_tips": "请选择语言",
+    "patent_language": "语言",
+    "countries_tips": "请选择专利局",
+    "countries": "专利局",
+    "sort_by": "排序",
+    "sort_by_tips": "请选择排序"
+  },
+  "table": {
+    "action": "操作",
+    "patent_information": "专利信息",
+    "title": "标题",
+    "no_content": "暂无内容",
+    "author": "作者",
+    "assignee": "受让人",
+    "application_date": "申请日期",
+    "author_assignee": "作者/受让方",
+    "patent_title": "专利标题 [ 翻译标题 ]"
+  },
+  "button": {
+    "tips": "点击翻译成英语"
+  },
+  "powered_by": "内容由AI生成，仅供参考",
+  "search_title": "高级搜索",
+  "sortby": {
+    "relevance": "相关性",
+    "submitted_date": "提交日期（最新优先）"
+  },
+  "language": {
+    "arabic": "阿拉伯语",
+    "Chinese": "中文",
+    "Danish": "丹麦语",
+    "Dutch": "荷兰语",
+    "English": "英语",
+    "Finnish": "芬兰语",
+    "French": "法语",
+    "German": "德语",
+    "Italian": "意大利语",
+    "Japanese": "日语",
+    "Korean": "韩语",
+    "Norwegian": "挪威语",
+    "Portuguese": "葡萄牙语",
+    "Russian": "俄语",
+    "Spanish": "西班牙语",
+    "Swedish": "瑞典语"
+  },
+  "status": {
+    "authorized_patent": "已授权专利",
+    "patent_application": "专利申请"
+  },
+  "type": {
+    "patent": "专利",
+    "design_patent": "设计专利"
+  },
+  "date": {
+    "priority": "申请日",
+    "filing": "特权日",
+    "publication": "发布日"
+  },
+  "questioning": {
+    "tips": "对专利进行提问 ......"
+  },
+  "or": "或",
+  "reanalyze_ai": "重新AI解析专利",
+  "analyze_progress": "解析进度为:",
+  "ai_analysis": "使用该功能前需要AI解析当前专利",
+  "previous_page": "上一页",
+  "next_page": "下一页",
+  "open_pdf": "点击打开新标签页查看专利PDF",
+  "open": "打开",
+  "start_translation": "开始翻译",
+  "selecet_lang": "请选择目标语言",
+  "retry_to_generate": "重试生成全文翻译",
+  "translation_in_progress": "正在翻译中。。。",
+  "result": "结果",
+  "original_text": "原文",
+  "pdf_file": "Pdf 文件",
+  "patent_image": "专利图片",
+  "translation_summary": "翻译摘要",
+  "translation_summary_result": "翻译摘要结果",
+  "original_text_summary": "原文摘要",
+  "publication_date": "发布日期",
+  "privilege_day": "特权日",
+  "patent_details": "专利详情",
+  "full_text_translation": "全文翻译",
+  "ai_qa": "AI问答"
+}

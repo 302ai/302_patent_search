@@ -1,0 +1,104 @@
+{
+  "header": {
+    "title": "AI 特許検索"
+  },
+  "search": {
+    "topic": "検索トピック",
+    "results": "検索結果",
+    "placeholder": "検索したいトピックを入力してください",
+    "reset": "リセット",
+    "start_time": "開始日時",
+    "end_time": "終了日時",
+    "time": "日付",
+    "time_tips": "日付タイプを選択してください",
+    "patent_type_tips": "タイプを選択してください",
+    "patent_type": "特許タイプ",
+    "patent_status_tips": "状態を選択してください",
+    "patent_status": "特許状態",
+    "patent_language_empty": "結果が見つかりませんでした",
+    "patent_language_tips": "言語を選択してください",
+    "patent_language": "言語",
+    "countries_tips": "特許局を選択してください",
+    "countries": "特許局",
+    "sort_by": "並び替え",
+    "sort_by_tips": "並び替えを選択してください"
+  },
+  "table": {
+    "action": "操作",
+    "patent_information": "特許情報",
+    "title": "タイトル",
+    "no_content": "コンテンツがありません",
+    "author": "著者",
+    "assignee": "譲受人",
+    "application_date": "申請日",
+    "author_assignee": "著者/譲受人",
+    "patent_title": "特許タイトル [ タイトルを翻訳 ]"
+  },
+  "button": {
+    "tips": "クリックして英語に翻訳する"
+  },
+  "powered_by": "コンテンツは参照用にAIによって生成される",
+  "search_title": "詳細検索",
+  "sortby": {
+    "relevance": "依存性",
+    "submitted_date": "提出日（最新優先）"
+  },
+  "language": {
+    "arabic": "アラビア語",
+    "Chinese": "中国語",
+    "Danish": "デンマーク語",
+    "Dutch": "オランダ語",
+    "English": "英語",
+    "Finnish": "フィンランド語",
+    "French": "フランス語",
+    "German": "ドイツ語",
+    "Italian": "イタリア語",
+    "Japanese": "日本語",
+    "Korean": "韓国語",
+    "Norwegian": "ノルウェー語",
+    "Portuguese": "ポルトガル語",
+    "Russian": "ロシア語",
+    "Spanish": "スペイン語",
+    "Swedish": "スウェーデン語"
+  },
+  "status": {
+    "authorized_patent": "ライセンスされた特許",
+    "patent_application": "特許出願"
+  },
+  "type": {
+    "patent": "とっきょ",
+    "design_patent": "設計特許"
+  },
+  "date": {
+    "priority": "申請日",
+    "filing": "特典の日",
+    "publication": "発売日"
+  },
+  "questioning": {
+    "tips": "特許に質問する ......"
+  },
+  "or": "または",
+  "reanalyze_ai": "特許を再解析する",
+  "analyze_progress": "解析進捗率:",
+  "ai_analysis": "この機能を使用する前にAIが現在の特許を解析する必要があります",
+  "previous_page": "前のページへ",
+  "next_page": "次のページ",
+  "open_pdf": "特許PDFを新しいタブで開くをクリック",
+  "open": "開ける",
+  "start_translation": "翻訳を開始",
+  "selecet_lang": "ターゲット言語を選択してください",
+  "retry_to_generate": "全文翻訳の再生成を試してください",
+  "translation_in_progress": "翻訳中です。。。",
+  "result": "結果",
+  "original_text": "原文",
+  "pdf_file": "PDFファイル",
+  "patent_image": "特許写真",
+  "translation_summary": "翻訳の概要",
+  "translation_summary_result": "翻訳要約結果",
+  "original_text_summary": "原文要約",
+  "publication_date": "発行日",
+  "privilege_day": "優先日",
+  "patent_details": "特許の詳細",
+  "full_text_translation": "全文翻訳",
+  "ai_qa": "AI質問応答"
+}
