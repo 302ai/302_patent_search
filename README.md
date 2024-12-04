@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![界面预览](docs/AI专利搜索en.png)  
 
 An open-source version of the [AI Patent Search](https://302.ai/tools/patent/) from [302.AI](https://302.ai). You can log in directly to 302.AI to use the online version with zero code and zero configuration, or modify this project according to your own needs, input your API KEY from 302.AI, and deploy it yourself.
 
