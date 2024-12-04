@@ -5,7 +5,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
-
+![界面预览](docs/AI专利搜索.png)   
 
 来自[302.AI](https://302.ai)的[AI 专利搜索](https://302.ai/tools/patent/)的开源版本。
 你可以直接登录302.AI，零代码零配置使用在线版本。
