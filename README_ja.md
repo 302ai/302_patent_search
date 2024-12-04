@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![界面预览](docs/AI专利搜索jp.png)
 
 [302.AI](https://302.ai)から提供される[AI特許検索](https://302.ai/tools/patent/)のオープンソースバージョンです。
 直接302.AIにログインして、コード不要でオンラインバージョンを利用できます。
