@@ -1,7 +1,7 @@
 # <p align="center"> ✏️ AI 专利搜索 🚀✨</p>
-<p align="center">AI专利搜索通过Google专利搜索快速获取专利的详情、图片和PDF文件，还可以根据专利局和语言等多种参数进行筛选，一键对生成全文摘要、全文翻译，还可以讲内容作为上下文与AI大模型进行对话，快速了解专利的详细内容。</p>
+<p align="center">AI专利搜索通过Google专利搜索快速获取专利的详情、图片和PDF文件，还可以根据专利局和语言等多种参数进行筛选，一键生成全文摘要、全文翻译，还可以将内容作为上下文与AI大模型进行对话，快速了解专利的详细内容。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/badge/21212.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -12,10 +12,17 @@
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
-![界面预览](docs/preview.jpg)
-![界面预览](docs/preview2.jpg)
-![界面预览](docs/preview3.jpg)
-![界面预览](docs/preview4.jpg)
+根据搜索主题和多种参数进行筛选，快速获取相关专利。
+![界面预览](docs/专利1.png)     
+
+获取专利详情。
+![界面预览](docs/专利2.png)    
+
+对专利进行全文翻译。
+![界面预览](docs/专利3.png)     
+
+可将内容作为上下文与AI进行对话，快速了解专利的详细内容。
+![界面预览](docs/专利4.png)
 
 ## 项目特性
 1. **🔍专利搜索**：
