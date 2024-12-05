@@ -2,9 +2,9 @@
 
 <p align="center">AI 特許検索は、Google 特許検索を通じて、特許の詳細、画像、および PDF ファイルを迅速に取得することができます。また、特許庁や言語などのさまざまなパラメータに基づいてフィルタリングすることもできます。ワンクリックで全文要約や全文翻訳を生成することができ、さらに、内容をコンテキストとして AI の大規模モデルと会話を行うことができ、特許の詳細な内容を迅速に理解することができます。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/ja/tools/patent/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/AI专利搜索jp.png)
 
