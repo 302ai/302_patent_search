@@ -2,9 +2,9 @@
 
 <p align="center">AI patent search can quickly obtain the details, pictures and PDF files of patents through Google patent search. It can also filter according to various parameters such as patent offices and languages. With just one click, it can generate full-text summaries and full-text translations. Moreover, the content can be used as context to have conversations with AI large models, enabling users to quickly understand the detailed content of patents.</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/en/tools/patent/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/AI专利搜索en.png)  
 
