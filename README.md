@@ -66,7 +66,7 @@ With AI Patent Search, we can easily and quickly access patent information from 
 
 ## ✨ About 302.AI ✨
 
-[302.AI](https://302.ai) is an on-demand AI application platform that addresses the last mile issue of AI in practical use.
+[302.AI](https://302.ai) is an enterprise-oriented AI application platform that offers pay-as-you-go services, ready-to-use solutions, and an open-source ecosystem.✨
 1. 🧠 It integrates the latest and most complete AI capabilities and brands, including but not limited to language models, image models, sound models, video models.
 2. 🚀 Deep application development on foundational models, developing real AI products rather than simple chatbots.
 3. 💰 Zero monthly fee, all features are pay-as-you-go, fully open to truly lower the threshold and increase the upper limit.
