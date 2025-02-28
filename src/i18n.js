@@ -1,8 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import enTranslation from './lib/locales/en/translation.json';
-import zhTranslation from './lib/locales/zh/translation.json';
-import jaTranslation from './lib/locales/ja/translation.json';
+import enTranslation from './lib/locales/en.json';
+import zhTranslation from './lib/locales/zh.json';
+import jaTranslation from './lib/locales/ja.json';
 
 // 翻译文件或对象
 const resources = {

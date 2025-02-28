@@ -14,7 +14,7 @@ export function LanguagePopover() {
   return (
     <Popover>
       <PopoverTrigger>
-        <IoLanguage className="text-[20px] cursor-pointer" />
+        <IoLanguage className="text-[19px] cursor-pointer" />
       </PopoverTrigger>
       <PopoverContent className="w-full p-1">
         <RadioGroup

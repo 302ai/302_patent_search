@@ -15,6 +15,9 @@ import { useAppDispatch, useAppSelector } from "./store/hooks";
 import { LanguagePopover } from "./components/LanguagePopover";
 import { languageList } from "./constant/language";
 import { selectGlobal, setGlobalState, setQuery } from "./store/globalSlice";
+import { addData, IAIPatentRecordList } from "./components/HistoricalRecords/indexedDB";
+import dayjs from "dayjs";
+import { HistoricalRecords } from "./components/HistoricalRecords";
 
 const region = import.meta.env.VITE_APP_REGION;
 const apiKey = import.meta.env.VITE_APP_API_KEY;
@@ -53,7 +56,7 @@ function App() {
   }, [])
 
   // Search Patent List
-  const getArxiv = async (offset: number = 1) => {
+  const getArxiv = async (type: 'search' | 'next' | 'prev', offset: number = 1) => {
     const query = searchQuery?.query.trimStart().trimEnd() || searchQuery?.oldQuery;
     const searchUrl = import.meta.env.VITE_APP_SEARCH_URL;
     const SEARCH_TEMP = localStorage.getItem('SEARCH');
@@ -90,7 +93,7 @@ function App() {
       }
     }
 
-    const onUpDateParameter = (res: { data: { total_results: number, next_page: boolean, olist: IPatentList[] } }) => {
+    const onUpDateParameter = async (res: { data: { total_results: number, next_page: boolean, olist: IPatentList[] } }) => {
       dispatch(setQuery({ query, currentPage: offset, sort_by: searchQuery.sort_by }))
       setSearchQuer((v) => ({ ...v, currentPage: offset, query: query, oldQuery: query }))
       setdataSource(() => ({
@@ -98,6 +101,22 @@ function App() {
         next_page: res.data.next_page,
         list: res.data.olist
       }))
+      if (type === 'search') {
+        await addData({
+          type: 'search',
+          title: query,
+          language,
+          search: {
+            list: res.data.olist,
+            searchData: advancedSearchData,
+            sortBy: advancedSearchData?.sort_by || 'relevance',
+            query,
+            next_page: res.data.next_page,
+            total_results: res.data.total_results,
+          },
+          created_at: dayjs().format('YYYY-MM-DD HH:mm:ss')
+        })
+      }
     }
 
     if (!/[^\w\s\d\p{P}\p{Emoji}]/gu.test(query.trimStart().trimEnd())) {
@@ -128,6 +147,21 @@ function App() {
         }).finally(() => {
           setSearchQuer((v) => ({ ...v, querying: false }))
         })
+    }
+  }
+
+  const onPreview = (item: IAIPatentRecordList) => {
+    if (item.type === 'search' && item.search) {
+      const { total_results, next_page, list, query, sortBy, searchData } = item.search
+      setLanguage(item.language);
+      setdataSource(() => ({ total_results, next_page, list }))
+      setSearchQuer((v) => ({
+        ...v,
+        query,
+        currentPage: 1,
+        sort_by: sortBy,
+      }))
+      localStorage.setItem('SEARCH', JSON.stringify({ ...searchData }));
     }
   }
 
@@ -198,7 +232,7 @@ function App() {
         <div>
           <PopoverDemo />
         </div>
-        <Button id="query-button" onClick={() => getArxiv()} disabled={searchQuery.querying || !searchQuery.query || translateSearchTerms}>
+        <Button id="query-button" onClick={() => getArxiv('search')} disabled={searchQuery.querying || !searchQuery.query || translateSearchTerms}>
           {searchQuery.querying ? <Spinner /> :
             <svg width="18" height="18" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M10 6.5C10 8.433 8.433 10 6.5 10C4.567 10 3 8.433 3 6.5C3 4.567 4.567 3 6.5 3C8.433 3 10 4.567 10 6.5ZM9.30884 10.0159C8.53901 10.6318 7.56251 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5C11 7.56251 10.6318 8.53901 10.0159 9.30884L12.8536 12.1464C13.0488 12.3417 13.0488 12.6583 12.8536 12.8536C12.6583 13.0488 12.3417 13.0488 12.1464 12.8536L9.30884 10.0159Z" ></path>
@@ -285,8 +319,9 @@ function App() {
       <Header />
       <div className="flex flex-col justify-between h-full">
         <div className="main-container w-full lg:p-6 p-3 flex flex-col relative" style={{ margin: '0 auto' }}>
-          <div >
-            <div className='flex absolute right-10 top-2'><LanguagePopover /></div>
+          <div className='fixed right-5 top-1 flex items-center gap-3' >
+            <HistoricalRecords onPreview={onPreview} />
+            <LanguagePopover />
           </div>
           <div>
             <div className="font-bold w-48 mb-1">{t("search.topic")}</div>
@@ -309,7 +344,7 @@ function App() {
                   <div
                     className={cn("pagenation", (searchQuery.currentPage === 1 || searchQuery.querying) ? "cursor-not-allowed" : "cursor-pointer")}
                     style={{ backgroundColor: (searchQuery.currentPage === 1 || searchQuery.querying) ? "#f5f7fa" : "" }}
-                    onClick={() => searchQuery.currentPage !== 1 && !searchQuery.querying && getArxiv(searchQuery.currentPage - 1)}
+                    onClick={() => searchQuery.currentPage !== 1 && !searchQuery.querying && getArxiv('prev', searchQuery.currentPage - 1)}
                   >
                     <svg width="17.5" height="17.5" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill={(searchQuery.currentPage === 1 || searchQuery.querying) ? "#a8abb2" : "currentColor"} fillRule="evenodd" clipRule="evenodd" d="M8.81809 4.18179C8.99383 4.35753 8.99383 4.64245 8.81809 4.81819L6.13629 7.49999L8.81809 10.1818C8.99383 10.3575 8.99383 10.6424 8.81809 10.8182C8.64236 10.9939 8.35743 10.9939 8.1817 10.8182L5.1817 7.81819C5.09731 7.73379 5.0499 7.61933 5.0499 7.49999C5.0499 7.38064 5.09731 7.26618 5.1817 7.18179L8.1817 4.18179C8.35743 4.00605 8.64236 4.00605 8.81809 4.18179Z"></path>
@@ -318,7 +353,7 @@ function App() {
                   <div className="pagenation text-sm gap-2" style={{ width: 60 }}>{searchQuery.querying && <Spinner />}{searchQuery.currentPage}</div>
                   <div
                     className={cn("pagenation", (!dataSource.next_page || searchQuery.querying) ? "cursor-not-allowed" : "cursor-pointer")}
-                    onClick={() => dataSource.next_page && !searchQuery.querying && getArxiv(searchQuery.currentPage + 1)}
+                    onClick={() => dataSource.next_page && !searchQuery.querying && getArxiv('next', searchQuery.currentPage + 1)}
                   >
                     <svg width="17.5" height="17.5" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill={(!dataSource.next_page || searchQuery.querying) ? "#a8abb2" : "currentColor"} fillRule="evenodd" clipRule="evenodd" d="M6.18194 4.18185C6.35767 4.00611 6.6426 4.00611 6.81833 4.18185L9.81833 7.18185C9.90272 7.26624 9.95013 7.3807 9.95013 7.50005C9.95013 7.6194 9.90272 7.73386 9.81833 7.81825L6.81833 10.8182C6.6426 10.994 6.35767 10.994 6.18194 10.8182C6.0062 10.6425 6.0062 10.3576 6.18194 10.1819L8.86374 7.50005L6.18194 4.81825C6.0062 4.64251 6.0062 4.35759 6.18194 4.18185Z"></path>

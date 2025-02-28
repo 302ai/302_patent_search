@@ -17,6 +17,9 @@ import { Pagination, PaginationContent, PaginationItem, PaginationLink, Paginati
 import ImageViewer from 'eco-react-image-viewer';
 import { IPatentList } from "../interface";
 import { useTranslation } from "react-i18next";
+import { addData, IAIPatentRecordList } from "./HistoricalRecords/indexedDB";
+import { FaEye } from "react-icons/fa";
+import dayjs from "dayjs";
 
 const headers = {
   "accept": "application/json",
@@ -29,7 +32,7 @@ const enterStyles: React.CSSProperties = {
   wordBreak: 'break-all',
 }
 
-const languageList = [
+export const languageList = [
   { label: '中文(中文)', value: 'Chinese', code: 'zh' },
   { label: '英语(English)', value: 'English', code: 'en' },
   { label: '日语(日本語)', value: 'Japanese', code: 'ja' },
@@ -38,7 +41,10 @@ const languageList = [
   { label: '韩语(한국어)', value: 'Korean', code: 'ko' },
 ]
 
-export default function DocumentDialog({ document, searchType, languageType }: { document: IPatentList, languageType: string, searchType?: string }) {
+interface IProps { document: IPatentList, languageType: string, isRecord?: boolean, recordData?: IAIPatentRecordList }
+
+export default function DocumentDialog({ document, languageType, isRecord, recordData }: IProps) {
+
   const { t } = useTranslation();
   const [desktopActiveTab, setDesktopActiveTab] = useState("details")
   const global = useAppSelector(selectGlobal)
@@ -155,7 +161,7 @@ export default function DocumentDialog({ document, searchType, languageType }: {
       headers,
       body: JSON.stringify({
         data_cid: document.patent_id,
-        pdf_url: searchType === 'arxiv' ? '' : document.pdf,
+        pdf_url: document.pdf,
         language: global.language,
         api_key: apiKey,
         models_name: modelName,
@@ -253,7 +259,7 @@ export default function DocumentDialog({ document, searchType, languageType }: {
         headers
       }).then(res => res.text())
         .then(res => JSON.parse(res))
-        .then(res => {
+        .then(async res => {
           if (res.data.progress === -1) {
             if (type === "translate") {
               toast.error('翻译失败。。。')
@@ -287,6 +293,16 @@ export default function DocumentDialog({ document, searchType, languageType }: {
               if (res.data.history[i].indexOf("merge_translate_zh_pdf_url-") > -1) {
                 const pdfUrl = res.data.history[i].split("merge_translate_zh_pdf_url-")[1]
                 setTranslatePdfUrl(pdfUrl)
+                await addData({
+                  type: 'translate',
+                  title: document.title,
+                  language,
+                  translateFiel: {
+                    url: pdfUrl,
+                    language,
+                  },
+                  created_at: dayjs().format('YYYY-MM-DD HH:mm:ss')
+                })
                 break
               }
             }
@@ -329,7 +345,7 @@ export default function DocumentDialog({ document, searchType, languageType }: {
       })
     }).then(res => res.text())
       .then(res => JSON.parse(res))
-      .then(res => {
+      .then(async res => {
         if (res?.data?.msg?.err_code) {
           toast(ErrMessage(res?.data?.msg?.err_code, global.language, region), {
             autoClose: false,
@@ -337,6 +353,16 @@ export default function DocumentDialog({ document, searchType, languageType }: {
           return
         }
         setTranslationSummaryText(res?.data?.translation || '')
+        await addData({
+          type: 'summary',
+          title: document.title,
+          language,
+          abstract: {
+            item: document,
+            translationSummaryText: res?.data?.translation || ''
+          },
+          created_at: dayjs().format('YYYY-MM-DD HH:mm:ss')
+        })
       }).finally(() => {
         setActionTranslationSummaryText(false);
       })
@@ -490,6 +516,15 @@ export default function DocumentDialog({ document, searchType, languageType }: {
   const [imageVieweVisible, setImageVieweVisible] = useState(false)
   const [imageVieweIndex, setImageVieweIndex] = useState(0)
 
+  const copyText = (text: string) => {
+    return navigator.clipboard.writeText(text).then(() => {
+      toast.success(t('copy_suc'))
+      return true;
+    }).catch(() => {
+      toast.error(t('copy_error'))
+    });
+  }
+
   return <Dialog onOpenChange={(value) => {
     if (!value) {
       if (taskIntervalId.parse) {
@@ -506,6 +541,8 @@ export default function DocumentDialog({ document, searchType, languageType }: {
           setTranslating(false)
         }
       }
+    } else if (recordData && recordData.abstract) {
+      setTranslationSummaryText(recordData.abstract.translationSummaryText)
     } else {
       toScrollBottom("answer", "instant")
       toScrollBottom("summary", "instant")
@@ -513,12 +550,15 @@ export default function DocumentDialog({ document, searchType, languageType }: {
     }
   }}>
     <DialogTrigger>
-      <Button variant="secondary" size="sm" onClick={() => {
-        setTimeout(() => {
-          setHeight()
-          setLoading(true)
-        })
-      }}>{t("open")}</Button>
+      {
+        isRecord ? <Button variant="ghost" className="p-0 m-0 hover:bg-transparent"><FaEye /></Button> :
+          <Button variant="secondary" size="sm" onClick={() => {
+            setTimeout(() => {
+              setHeight()
+              setLoading(true)
+            })
+          }}>{t("open")}</Button>
+      }
     </DialogTrigger>
     <DialogContent hidden={true} className="p-0 flex flex-col" style={{ maxWidth: 2560, margin: '0 auto', backgroundColor: '#f3f3f3' }}>
       {/* Computer end */}

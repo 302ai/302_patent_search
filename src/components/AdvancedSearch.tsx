@@ -13,7 +13,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/Popover";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { useTranslation } from 'react-i18next';
 
-interface ISearchData {
+export interface ISearchData {
   sort_by: string;
   countries: Array<Option>;
   patent_language: Array<Option>;
@@ -110,23 +110,25 @@ export function PopoverDemo() {
   }, [global.language])
 
   useEffect(() => {
-    const SEARCH_TEMP = localStorage.getItem('SEARCH');
-    try {
-      const data = JSON.parse(SEARCH_TEMP || '{}');
-      if (data) {
-        let [start_time, end_time]: [any, any] = [undefined, undefined];
-        if (data.start_time) {
-          start_time = new Date(data.start_time)
+    if (popoverOpen) {
+      const SEARCH_TEMP = localStorage.getItem('SEARCH');
+      try {
+        const data = JSON.parse(SEARCH_TEMP || '{}');
+        if (data) {
+          let [start_time, end_time]: [any, any] = [undefined, undefined];
+          if (data.start_time) {
+            start_time = new Date(data.start_time)
+          }
+          if (data.end_time) {
+            end_time = new Date(data.end_time)
+          }
+          setSearchData(() => ({ ...data, start_time, end_time }))
         }
-        if (data.end_time) {
-          end_time = new Date(data.end_time)
-        }
-        setSearchData(() => ({ ...data, start_time, end_time }))
+      } catch (error) {
+        setSearchData(() => ({ ...defaultSearchData }))
       }
-    } catch (error) {
-      setSearchData(() => ({ ...defaultSearchData }))
     }
-  }, [])
+  }, [popoverOpen])
 
   const onReset = () => {
     setSearchData(() => ({ ...defaultSearchData }))

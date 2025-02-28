@@ -100,5 +100,13 @@
   "privilege_day": "Privilege Day",
   "patent_details": "Patent Details",
   "full_text_translation": "Full Text Translation",
-  "ai_qa": "AI Q&A"
+  "ai_qa": "AI Q&A",
+  "file_downloading": "File downloading, please wait...",
+  "download_failed": "Download failed",
+  "no_operation_history": "No operation history",
+  "translation_result": "Translation Result",
+  "search_result": "Search Result",
+  "summary_translation_result": "Summary Translation Result",
+  "copy_suc": "Copy successfully",
+  "copy_error": "Copy failed"
 }
