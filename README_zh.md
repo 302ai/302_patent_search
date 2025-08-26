@@ -1,13 +1,13 @@
 # <p align="center"> ✏️ AI 专利搜索 🚀✨</p>
 <p align="center">AI专利搜索通过Google专利搜索快速获取专利的详情、图片和PDF文件，还可以根据专利局和语言等多种参数进行筛选，一键生成全文摘要、全文翻译，还可以将内容作为上下文与AI大模型进行对话，快速了解专利的详细内容。</p>
 
-<p align="center"><a href="https://302.ai/tools/patent/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/28" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/AI专利搜索.png)   
 
-来自[302.AI](https://302.ai)的[AI 专利搜索](https://302.ai/tools/patent/)的开源版本。
+来自[302.AI](https://302.ai)的[AI 专利搜索](https://302.ai/product/detail/28)的开源版本。
 你可以直接登录302.AI，零代码零配置使用在线版本。
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 

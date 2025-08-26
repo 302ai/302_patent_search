@@ -2,13 +2,13 @@
 
 <p align="center">AI patent search can quickly obtain the details, pictures and PDF files of patents through Google patent search. It can also filter according to various parameters such as patent offices and languages. With just one click, it can generate full-text summaries and full-text translations. Moreover, the content can be used as context to have conversations with AI large models, enabling users to quickly understand the detailed content of patents.</p>
 
-<p align="center"><a href="https://302.ai/en/tools/patent/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/28" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/AI专利搜索en.png)  
 
-An open-source version of the [AI Patent Search](https://302.ai/en/tools/patent/) from [302.AI](https://302.ai/en/). You can log in directly to 302.AI to use the online version with zero code and zero configuration, or modify this project according to your own needs, input your API KEY from 302.AI, and deploy it yourself.
+An open-source version of the [AI Patent Search](https://302.ai/product/detail/28) from [302.AI](https://302.ai/en/). You can log in directly to 302.AI to use the online version with zero code and zero configuration, or modify this project according to your own needs, input your API KEY from 302.AI, and deploy it yourself.
 
 ## Interface Preview
 Filter according to the search theme and multiple parameters to quickly obtain relevant patents.
